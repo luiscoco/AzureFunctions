@@ -10,7 +10,7 @@ Let's start with a simple example in C#.
 
 This is a Http Triggered function, it's to say, a function that responds to HTTP GET and POST requests:
 
-## 1. Create a new Azure Function:
+## Create a new Azure Function:
 
 Go to the Azure portal.
 
@@ -18,13 +18,13 @@ Click on "Create a resource" and search for "Function App."
 
 Fill in the required details like subscription, resource group, and function app name.
 
-## 2. Create a Function:
+## Create a Function:
 
 Inside your Function App, click on the "+" button next to "Functions."
 
 Select "HTTP trigger" as the template. This creates a function that can be triggered via an HTTP request.
 
-## 3. Write your Function:
+## Write your Function:
 
 ```csharp
 using System.IO;
