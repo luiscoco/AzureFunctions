@@ -10,7 +10,7 @@ Let's start with a simple example in C#.
 
 This is a Http Triggered function, it's to say, a function that responds to HTTP GET and POST requests:
 
-1. Create a new Azure Function:
+## 1. Create a new Azure Function:
 
 Go to the Azure portal.
 
@@ -18,13 +18,13 @@ Click on "Create a resource" and search for "Function App."
 
 Fill in the required details like subscription, resource group, and function app name.
 
-2. Create a Function:
+## 2. Create a Function:
 
 Inside your Function App, click on the "+" button next to "Functions."
 
 Select "HTTP trigger" as the template. This creates a function that can be triggered via an HTTP request.
 
-3. Write your Function:
+## 3. Write your Function:
 
 ```csharp
 using System.IO;
@@ -62,7 +62,7 @@ This simple function takes a name as a parameter (either from the query string o
 
 This is a simple Azure Functions code written in C# using the Azure Functions runtime and the ASP.NET Core framework. Let me break it down for you:
 
-Namespace and Using Statements:
+## Namespace and Using Statements:
 
 ```csharp
 using System.IO;
@@ -76,7 +76,7 @@ using Newtonsoft.Json;
 
 These lines include necessary namespaces for working with input/output streams, handling HTTP requests and responses, logging, and JSON serialization.
 
-Class Declaration:
+## Class Declaration:
 
 ```csharp
 public static class SimpleFunction
@@ -84,7 +84,7 @@ public static class SimpleFunction
 
 Defines a static class named SimpleFunction.
 
-Function Method:
+## Function Method:
 
 ```csharp
 [FunctionName("SimpleFunction")]
