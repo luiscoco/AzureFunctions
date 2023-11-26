@@ -1,5 +1,7 @@
 # AzureFunctions
 
+https://learn.microsoft.com/en-us/azure/azure-functions/
+
 # A. Azure Functions (My first HttpTrigger Azure Function)
 
 Azure Functions is a serverless compute service that allows you to run event-triggered code without explicitly provisioning or managing infrastructure. 
